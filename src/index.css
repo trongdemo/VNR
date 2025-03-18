@@ -1,0 +1,38 @@
+
+@import "tailwindcss";
+@font-face {
+  font-family: 'iCiel Hardware';
+  src: url('/fonts/iCielBCDDCHardwareRough-Compressed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --bg-color: #FEEED2; /* Định nghĩa màu đen */
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Faustina", serif;
+  background-color: var(--bg-color);
+
+}
+
+.lodestone {
+  font-family: 'iCiel Hardware', sans-serif;
+}
+@keyframes moveText {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.moving-text {
+  white-space: nowrap;
+  animation: moveText 7s linear infinite;
+}
+@font-face {
+  font-family: "Faustina";
+  src: url("/fonts/Faustina-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
