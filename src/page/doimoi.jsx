@@ -121,7 +121,7 @@ const DoiMoi = () => {
       {/* Nút quay lại */}
       <div className="text-center mt-10">
         <Link
-          to="/content6"
+          to="/"
           className="inline-block px-6 py-3 text-lg font-semibold text-white bg-green-600 rounded-lg hover:bg-green-700 transition"
         >
           Quay lại
