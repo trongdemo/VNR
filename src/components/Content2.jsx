@@ -20,12 +20,12 @@ const Content2 = () => {
           món ăn thời bao cấp. Bạn đã từng nghe đến "cơm độn khoai", "bánh mì
           mậu dịch" hay "cửa hàng mậu dịch quốc doanh" chưa?
         </p>
-        <a
-          href="/doi-song"
+        <Link
+          to="/doi-song"
           className="inline-block mt-6 px-6 py-3 text-lg font-semibold text-white bg-black rounded-lg hover:bg-gray-800 transition"
         >
           Khám phá ngay
-        </a>
+        </Link>
       </div>
 
       {/* Ảnh */}
